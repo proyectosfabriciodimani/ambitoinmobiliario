@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+}
+/*Header*/
+#header nav {
+  background-color: rgba(46, 42, 42, 0.801) !important;
+}
+
+#header img {
+  height: 5rem;
+}
+
+#header span {
+  padding-top: 1rem;
+  font-size: 150%;
+}
+
+.text-rolling {
+  color: rgb(34, 184, 243) !important;
+}
+/*fin de header*/
+
+/*Main*/
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#carousel .overlay button,
+#carousel .overlay a {
+  font-size: 1.5rem;
+}
+
+/*Speakers*/
+#speakers .card,
+#speakers .card h5 {
+  font-size: 1.5rem;
+}
+
+/*Lugar y fecha*/
+
+#lugar-fecha {
+  background-color: black;
+  color: white;
+}
+
+#lugar-fecha img {
+  max-width: 100%;
+}
+
+#lugar a {
+  font-size: 1.5rem;
+}
+
+#conviertete-en-orador small,
+#conviertete-en-orador input,
+#conviertete-en-orador textarea,
+#conviertete-en-orador button {
+  font-size: 1.5rem;
+}
+
+#conviertete-en-orador textarea {
+  resize: none;
+}
+
+/*Footer*/
+#footer {
+  background-color: rgb(244, 67, 54);
+  min-height: 5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+}
+
+/*fin footer*/
+
+/*****************************************/
+
+@media (min-width: 1024) {
+  #lugar-fecha img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
