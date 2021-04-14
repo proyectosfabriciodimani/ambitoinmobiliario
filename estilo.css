@@ -99,7 +99,7 @@ body {
 
 /*Footer*/
 #footer {
-  background-color: rgb(244, 67, 54);
+  background-color: rgba(46, 42, 42, 0.801);
   min-height: 5rem;
   padding: 2rem;
   text-align: center;
